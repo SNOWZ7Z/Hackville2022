@@ -1,12 +1,17 @@
 ﻿body {
     background-image: url(../../../../Images/Home_page_background.jpeg);
+    background-size: 2700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 60% top;
 }
 
-.initial-button{
+.initial-button {
     height: 150px;
     width: 300px;
     margin: 10px;
     border-radius: 10px;
+    font-size: 40px;
 }
 
 .title{
@@ -38,4 +43,8 @@
     align-content: center;
     justify-self: end;
     float: right;
+}
+
+element.style{
+    max-width: 37rem;
 }
