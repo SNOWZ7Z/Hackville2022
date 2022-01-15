@@ -16,6 +16,11 @@
 
 .title{
     grid-area: t;
+    justify-self: start;
+}
+
+.indexTitle{
+    text-align: left;
 }
 
 
@@ -34,8 +39,8 @@
     width: 750px;
 }
 
-#introPara {
-    
+.aboutParagraph{
+    font-size: 20px;
 }
 
 #introBtns {
@@ -49,13 +54,16 @@ element.style{
     max-width: 37rem;
 }
 
-/* Save on Food styling*/
+#imgAbout{
+    height: 375px;
+}
 
+/* Save on Food styling*/
 .sfBody {
     background-image: url(../../../../Images/Pink_Background_grocery.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:auto;
+    background-size: auto;
 }
 .ptext {
     padding-top: 3%;
