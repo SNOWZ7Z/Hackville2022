@@ -39,6 +39,10 @@ namespace Hackville2022.Controllers
             return View("saveonfood");
         }
 
+        public IActionResult sfRecipes()
+        {
+            return View("sfRecipes");
+
         public IActionResult Contact()
         {
             return View("Contact");
@@ -47,6 +51,7 @@ namespace Hackville2022.Controllers
         public IActionResult About()
         {
             return View("About");
+
         }
     }
 }
