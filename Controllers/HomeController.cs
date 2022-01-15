@@ -38,5 +38,10 @@ namespace Hackville2022.Controllers
         {
             return View("saveonfood");
         }
+
+        public IActionResult sfRecipes()
+        {
+            return View("sfRecipes");
+        }
     }
 }

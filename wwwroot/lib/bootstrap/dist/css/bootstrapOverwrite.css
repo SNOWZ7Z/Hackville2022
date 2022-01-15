@@ -49,7 +49,7 @@ element.style{
     max-width: 37rem;
 }
 
-/* Save on Food styling*/
+/* Save on Food (Home page) styling*/
 
 .sfBody {
     background-image: url(../../../../Images/Pink_Background_grocery.jpeg);
@@ -82,5 +82,12 @@ h1{
     border-radius: 40px;
     font-size: 200%;
 }
-=======
 
+/* Save on Food (Recipes) styling */
+
+
+.row-recipes {
+    padding-top: 7%;
+    background-color: white;
+    border-radius: 20px;
+}
