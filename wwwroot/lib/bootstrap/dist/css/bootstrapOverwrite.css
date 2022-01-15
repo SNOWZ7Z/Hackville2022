@@ -1,0 +1,28 @@
+﻿body {
+    background-image: url(~/Images/Home_page_background.jpeg);
+}
+
+.initial-button{
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container1Index{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "p b";
+
+}
+
+#introPara{
+    grid-area: p;
+    font-size: 200%;
+}
+
+#introBtns{
+    grid-area: b;
+    align-content: center;
+    justify-self: end;
+}
