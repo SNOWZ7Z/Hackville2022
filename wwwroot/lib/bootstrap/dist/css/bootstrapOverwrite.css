@@ -101,3 +101,64 @@ h1{
     background-color: white;
     border-radius: 20px;
 }
+
+
+
+/*Resources Styling*/
+
+.rsrBody{
+    background-image: url(../../../../Images/Orange_Background_resources.jpeg);
+    background-size: 1550px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 60% bottom;
+}
+
+#rsrIndxTitle{
+    text-align: center;
+}
+
+
+
+.rsrIndxBtns {
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrIndxContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:"b3 b2"
+                        "b1 b4";
+}
+
+#rsrIndxBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+#rsrIndxBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+}
+#rsrIndxBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+#rsrIndxBtn4 {
+    grid-area: b4;
+    align-self: center;
+    justify-self: center;
+}
+
+
