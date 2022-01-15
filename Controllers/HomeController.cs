@@ -34,15 +34,6 @@ namespace Hackville2022.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult saveonfood()
-        {
-            return View("saveonfood");
-        }
-
-        public IActionResult sfRecipes()
-        {
-            return View("sfRecipes");
-
         public IActionResult Contact()
         {
             return View("Contact");
