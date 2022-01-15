@@ -42,6 +42,16 @@ namespace Hackville2022.Controllers
         public IActionResult sfRecipes()
         {
             return View("sfRecipes");
+
+        public IActionResult Contact()
+        {
+            return View("Contact");
+        }
+
+        public IActionResult About()
+        {
+            return View("About");
+
         }
     }
 }
