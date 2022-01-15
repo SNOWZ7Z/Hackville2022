@@ -161,4 +161,12 @@ h1{
     justify-self: center;
 }
 
+/*School Resources*/
 
+.schlSrchBody {
+    background-image: url(../../../../Images/Green_background_school_resources.jpeg);
+    background-size: 2180px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100% top;
+}
