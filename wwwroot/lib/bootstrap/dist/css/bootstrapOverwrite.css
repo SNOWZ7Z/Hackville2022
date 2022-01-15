@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url(~/Images/Home_page_background.jpeg);
+    background-image: url(../../../../Images/Home_page_background.jpeg);
 }
 
 .initial-button{
@@ -9,20 +9,33 @@
     border-radius: 10px;
 }
 
-.container1Index{
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-areas: "p b";
-
+.title{
+    grid-area: t;
 }
 
-#introPara{
+
+.container1Index {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas:"t b"
+                        "p b";
+}
+
+
+#introParaSec {
     grid-area: p;
     font-size: 200%;
+    float: left;
+    width: 750px;
 }
 
-#introBtns{
+#introPara {
+    
+}
+
+#introBtns {
     grid-area: b;
     align-content: center;
     justify-self: end;
+    float: right;
 }
