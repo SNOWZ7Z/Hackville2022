@@ -108,7 +108,16 @@ h1{
     border-radius: 20px;
     border-color: black;
 }
-
+.label-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .col-space{
     margin-right: 1%;
 }
@@ -120,6 +129,11 @@ h1{
     padding-left: 0px;
     padding-right: 0px;
     background-repeat: no-repeat;
+}
+
+.label-title{
+
+    text-align: center;
 }
 
 .card-type {
