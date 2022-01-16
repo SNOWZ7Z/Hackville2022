@@ -79,7 +79,7 @@ h1{
     text-align: center;
 }
 
-.row {
+.row-sfmain {
     padding-top: 7%;
 }
 .col-md-5, .col-md-7 {
@@ -97,12 +97,12 @@ h1{
 
 
 .row-recipes {
-    padding-top: 7%;
     background-color: white;
     border-radius: 20px;
 }
-
-
+.row-space {
+    margin-top: 3%;
+}
 
 /*Resources Styling*/
 

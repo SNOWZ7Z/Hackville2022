@@ -9,9 +9,9 @@
 <body class="sfBody">
     <h1>Feeling Hungry?</h1>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row row-sfmain">
             <div class="col-md-5">
-             <button class="btn btn-lg btn-primary sfButton" type="button">Cheap And Easy Recipes!</button>
+             <a class="btn btn-lg btn-primary sfButton" type="button" asp-area="" asp-controller="saveOnFood" asp-action="sfRecipes">Cheap And Easy Recipes!</a>
             </div>
             <div class="col-md-7">
                 <p class="ptext">Starting to cook on your own can be a challenge, so we provided a list of easy to cook
@@ -20,7 +20,7 @@
                 </p>
             </div>
         </div>
-        <div class="row">
+        <div class="row row-sfmain">
             <div class="col-md-7">
                 <p class="ptext">
                  We know what it’s like to be a newcomer to a new place, and finding different ethnic shops to make 
@@ -29,7 +29,7 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <button class="btn btn-lg btn-primary sfButton" type="button">Find Different Grocery Stores!</button>
+                <a class="btn btn-lg btn-primary sfButton" type="button">Find Different Grocery Stores!</a>
             </div>
         </div>
     </div>
