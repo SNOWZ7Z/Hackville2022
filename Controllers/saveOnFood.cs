@@ -23,5 +23,9 @@ namespace Hackville2022.Controllers
             return View("sfRecipes");
         }
 
+        public IActionResult sfDir()
+        {
+            return View("sfDir");
+        }
     }
 }

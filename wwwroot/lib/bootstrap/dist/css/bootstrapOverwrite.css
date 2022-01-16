@@ -65,7 +65,7 @@ element.style{
     background-image: url(../../../../Images/Pink_Background_grocery.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
 }
 .ptext {
     padding-top: 3%;
@@ -79,7 +79,7 @@ h1{
     text-align: center;
 }
 
-.row {
+.row-sfmain {
     padding-top: 7%;
 }
 .col-md-5, .col-md-7 {
@@ -93,16 +93,32 @@ h1{
     font-size: 200%;
 }
 
-/* Save on Food (Recipes) styling */
-
-
 .row-recipes {
-    padding-top: 7%;
     background-color: white;
     border-radius: 20px;
 }
+.row-space {
+    margin-top: 3%;
+}
 
+.loc-dir{
+    background-color:white;
+    border-radius: 20px;
+    border-color: black;
+}
 
+.col-space{
+    margin-right: 1%;
+}
+.img-type{
+    background-image: url(../../../../Images/Globe-europe.png);
+    width: 100rem;
+    height: auto;
+    background-size: cover;
+}
+.food-dir{
+    text-align:center;
+}
 
 /*Resources Styling*/
 
