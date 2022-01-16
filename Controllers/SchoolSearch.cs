@@ -18,5 +18,16 @@ namespace Hackville2022.Controllers
         public IActionResult AcademicCalendar() { 
             return View();
         }
+
+        [HttpGet]
+        public IActionResult HealthCarePlanDomestic() {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult HealthCarePlanInternational()
+        {
+            return View();
+        }
     }
 }

@@ -256,11 +256,33 @@ h1{
 }
 
 .calendar-container {
-    display: flex; 
+    margin-top: 50px;
+    display: flex;
     justify-content: space-around;
     flex-direction: row;
+    background-image: url("../../../../Images/calendar.PNG");
+    display: block;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
 }
 
-.calendar {
-    background-image: url("../../../../Images/calendar.PNG")
+.calendar-container img {
+    visibility: hidden;
 }
+
+.health {
+    justify-content: space-around
+}
+
+.healthCare {
+    background-image: url("../../../../Images/Green_background_school_resources.jpeg");
+    background-size: cover;
+    font-family: "News Cycle","Arial Narrow Bold", sans-serif;
+}
+
+    .healthCare .card {
+        border-radius: 20px;
+    }
