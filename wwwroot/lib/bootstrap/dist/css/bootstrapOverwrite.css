@@ -1,6 +1,6 @@
 ﻿body {
     background-image: url(../../../../Images/Home_page_background.jpeg);
-    background-size: 2700px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60% top;
@@ -146,9 +146,13 @@ h1{
 
 /*Resources Styling*/
 
+.btnImages {
+    height: 100px;
+}
+
 .rsrBody{
     background-image: url(../../../../Images/Orange_Background_resources.jpeg);
-    background-size: 1550px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60% bottom;
@@ -158,6 +162,15 @@ h1{
     text-align: center;
 }
 
+.rsrBody .cardRsrs {
+    height: 120px;
+    border-radius: 20px;
+}
+
+.rsrIndxBtns:hover {
+    background-color: rgb(255, 85, 6);
+    color: white;
+}
 
 
 .rsrIndxBtns {
@@ -197,6 +210,199 @@ h1{
 }
 #rsrIndxBtn4 {
     grid-area: b4;
+    align-self: center;
+    justify-self: center;
+}
+/*Resources////////////GOVERNMENT VIEW*/
+
+.govRsrsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"b1 b2 b3"
+                        ". b4 .";
+
+}
+#rsrGovBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+#rsrGovBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+#rsrGovBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+#rsrGovBtn4 {
+    grid-area: b4;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrGovBtns {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+    .rsrGovBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    } 
+
+/*Resources////////////HEALTH VIEW*/
+
+    .rsrHlthBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    }
+
+.hlthRsrsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "b1 b2 b3";
+}
+
+#rsrHlthBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrHlthBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrHlthBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrHlthBtns {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Resources////////////Printing Resources VIEW*/
+
+
+    .rsrPrntBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    }
+
+/*
+.prntRsrsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "b1 b2 b3";
+}
+        */
+
+.prntRsrsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+
+#rsrPrntBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrPrntBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrPrntBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrPrntBtns {
+    height: 200px;
+    width: 340px;
+    margin: 10px 40px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Resources////////////Clothing Resources VIEW*/
+
+    .rsrClthBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    }
+
+/*
+.prntRsrsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "b1 b2 b3";
+}
+        */
+
+.clthRsrsContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: stretch;
+}
+
+#rsrClthBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrClthBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrClthBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrClthBtns {
+    height: 200px;
+    width: 300px;
+    margin: 10px 60px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
     align-self: center;
     justify-self: center;
 }

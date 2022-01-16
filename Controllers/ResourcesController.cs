@@ -32,5 +32,15 @@ namespace Hackville2022.Controllers
         {
             return View("PrintingResources");
         }
+
+        public IActionResult TriftShopMap()
+        {
+            return View("TriftShopMap");
+        }
+
+        public IActionResult HealthMap()
+        {
+            return View("HealthMap");
+        }
     }
 }
