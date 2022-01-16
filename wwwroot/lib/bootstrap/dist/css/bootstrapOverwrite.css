@@ -122,6 +122,10 @@ h1{
 
 /*Resources Styling*/
 
+.btnImages {
+    height: 100px;
+}
+
 .rsrBody{
     background-image: url(../../../../Images/Orange_Background_resources.jpeg);
     background-size: cover;
@@ -227,7 +231,157 @@ h1{
     justify-self: center;
 }
 
+    .rsrGovBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    } 
+
 /*Resources////////////HEALTH VIEW*/
+
+    .rsrHlthBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    }
+
+.hlthRsrsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "b1 b2 b3";
+}
+
+#rsrHlthBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrHlthBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrHlthBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrHlthBtns {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Resources////////////Printing Resources VIEW*/
+
+
+    .rsrPrntBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    }
+
+/*
+.prntRsrsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "b1 b2 b3";
+}
+        */
+
+.prntRsrsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+
+#rsrPrntBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrPrntBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrPrntBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrPrntBtns {
+    height: 200px;
+    width: 340px;
+    margin: 10px 40px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Resources////////////Clothing Resources VIEW*/
+
+    .rsrClthBtns:hover {
+        background-color: rgb(255, 85, 6);
+        color: white;
+    }
+
+/*
+.prntRsrsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "b1 b2 b3";
+}
+        */
+
+.clthRsrsContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: stretch;
+}
+
+#rsrClthBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrClthBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+
+#rsrClthBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrClthBtns {
+    height: 200px;
+    width: 300px;
+    margin: 10px 60px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
 
 /*School Resources*/
 
