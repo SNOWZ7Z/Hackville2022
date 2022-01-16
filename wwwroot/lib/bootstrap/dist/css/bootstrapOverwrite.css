@@ -1,6 +1,6 @@
 ﻿body {
     background-image: url(../../../../Images/Home_page_background.jpeg);
-    background-size: 2700px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60% top;
@@ -108,7 +108,7 @@ h1{
 
 .rsrBody{
     background-image: url(../../../../Images/Orange_Background_resources.jpeg);
-    background-size: 1550px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60% bottom;
@@ -118,6 +118,15 @@ h1{
     text-align: center;
 }
 
+.rsrBody .cardRsrs {
+    height: 120px;
+    border-radius: 20px;
+}
+
+.rsrIndxBtns:hover {
+    background-color: rgb(255, 85, 6);
+    color: white;
+}
 
 
 .rsrIndxBtns {
@@ -160,6 +169,49 @@ h1{
     align-self: center;
     justify-self: center;
 }
+/*Resources////////////GOVERNMENT VIEW*/
+
+.govRsrsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"b1 b2 b3"
+                        ". b4 .";
+
+}
+#rsrGovBtn1 {
+    grid-area: b1;
+    align-self: center;
+    justify-self: center;
+}
+#rsrGovBtn2 {
+    grid-area: b2;
+    align-self: center;
+    justify-self: center;
+}
+#rsrGovBtn3 {
+    grid-area: b3;
+    align-self: center;
+    justify-self: center;
+}
+#rsrGovBtn4 {
+    grid-area: b4;
+    align-self: center;
+    justify-self: center;
+}
+
+.rsrGovBtns {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Resources////////////HEALTH VIEW*/
 
 /*School Resources*/
 
@@ -190,10 +242,10 @@ h1{
     border-radius: 20px;
 }
 
-    .schlSrchBody .card:hover {
+.schlSrchBody .card:hover {
         background-color: #1C2C31;
         color: white;
-    }
+}
 
 .schlSrchBody .card-body {
    display: flex; 
