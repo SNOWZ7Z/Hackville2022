@@ -163,10 +163,68 @@ h1{
 
 /*School Resources*/
 
+
 .schlSrchBody {
-    background-image: url(../../../../Images/Green_background_school_resources.jpeg);
-    background-size: 2180px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 100% top;
+    background-image: url("../../../../Images/Green_background_school_resources.jpeg");
+    background-size: cover;
+    font-family: "News Cycle","Arial Narrow Bold", sans-serif;
+}
+
+.schlSrchBody h1 {
+    font-size: 2.4vw;  
+    padding: 0px;
+    margin: 0px;
+}
+
+.titles {
+    margin-top: 40px;
+}
+
+.schlSrchBody a {
+    text-decoration: none;
+    color: black;
+}
+
+.schlSrchBody .card {
+    height: 120px;
+    border-radius: 20px;
+}
+
+    .schlSrchBody .card:hover {
+        background-color: #1C2C31;
+        color: white;
+    }
+
+.schlSrchBody .card-body {
+   display: flex; 
+   align-items: center;
+   justify-content: space-around;
+}
+
+.schlSrchBody .card-body h5 {
+    font-size: 1.5vw;
+}
+
+@media(max-width: 1000px) {
+    .schlSrchBody .card-body h5 {
+        font-size: 3vw;
+    }
+
+    .schlSrchBody h1 {
+        font-size: 3vw;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media(max-width: 553px) {
+    .schlSrchBody .card-body h5 {
+        font-size: 4vw;
+    }
+
+    .schlSrchBody h1 {
+        font-size: 6vw;
+        padding: 0px;
+        margin: 0px;
+    }
 }
