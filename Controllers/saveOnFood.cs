@@ -10,7 +10,7 @@ namespace Hackville2022.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
 
         public IActionResult saveonfood()
