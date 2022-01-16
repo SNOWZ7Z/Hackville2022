@@ -99,6 +99,8 @@ h1{
 }
 .row-space {
     margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .loc-dir{
@@ -110,12 +112,20 @@ h1{
 .col-space{
     margin-right: 1%;
 }
-.img-type{
+.img-type {
+    display: block;
+    height: 300px;
     background-image: url(../../../../Images/Globe-europe.png);
-    width: 100rem;
-    height: auto;
-    background-size: cover;
+    background-size: contain;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-repeat: no-repeat;
 }
+
+.card-type {
+    width: 290px;
+}
+
 .food-dir{
     text-align:center;
 }
