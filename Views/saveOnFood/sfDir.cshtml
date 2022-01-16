@@ -4,33 +4,47 @@
 *@
 <head>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-slate.min.css" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrapOverwrite.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrapOverwrite.css" />    
 </head>
 <body class="sfBody">
+    <h1 class="label-title">Grocery Directory:</h1>
     <div class="row row-space">
-        <div class="col-md-3 loc-dir col-space">
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
+            <a asp-area="" asp-controller="saveOnFood" asp-action="Index">
             <h2 class="food-dir">North Asian</h2>
-            <img src="~/Images/globee_north_asia.png" width="300px"/>
+            <div class="img-type"></div>
+            </a>
         </div>
-        <div class="col-md-3 loc-dir col-space">
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
             <h2 class="food-dir">Middle Eastern</h2>
-            <img src="~/Images/globe-middle_east.png" width="300px"/>
+            <div class="img-type"></div>
         </div>
-        <div class="col-md-3 loc-dir col-space">
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
             <h2 class="food-dir">North American</h2>
-            <img src="~/Images/globe_north_america.png" width="300px"/>
+            <div class="img-type"></div>
         </div>
-        <div class="col-md-3 loc-dir">
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
             <h2 class="food-dir">European</h2>
             <div class="img-type"></div>
-            <!--<img src="~/Images/Globe-europe.png" width="300px"/>-->
         </div>
     </div>
 
     <div class="row row-space">
-        <div class="col-md-3"><img src="~/Images/fried_rice_icon_recipes.jpeg" width="300px"/></div>
-        <div class="col-md-3"><img src="~/Images/fried_rice_icon_recipes.jpeg" width="300px"/></div>
-        <div class="col-md-3"><img src="~/Images/fried_rice_icon_recipes.jpeg" width="300px"/></div>
-        <div class="col-md-3"><img src="~/Images/fried_rice_icon_recipes.jpeg" width="300px"/></div>
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
+            <h2 class="food-dir">South Asian</h2>
+            <div class="img-type"></div>
+        </div>
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
+            <h2 class="food-dir">Oceania</h2>
+            <div class="img-type"></div>
+        </div>
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
+            <h2 class="food-dir">Latin American</h2>
+            <div class="img-type"></div>
+        </div>
+        <div class="col-md-3 loc-dir col-space card-type mt-3">
+            <h2 class="food-dir">African</h2>
+            <div class="img-type"></div>
+        </div>
     </div>
 </body>

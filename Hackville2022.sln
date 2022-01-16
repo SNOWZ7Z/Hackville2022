@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32106.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackville2022", "Hackville2022.csproj", "{2F5D9A37-5ED3-466F-9124-4E0CF2B19123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackville2022", "Hackville2022.csproj", "{2F5D9A37-5ED3-466F-9124-4E0CF2B19123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
